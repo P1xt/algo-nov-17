@@ -1,0 +1,94 @@
+
+> algo-oct-17@1.0.0 test /Users/krisjones/fcc/algo-nov-17
+> mocha test.js
+
+
+
+  rideZsoltime
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideBenGitter
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideNewBorn
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideJacksonBates
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideP1xt
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideJenovs
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideOmegga
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideVelenir
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  ridekevcomedia
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  ridejoelpeyton
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  ridealichristensen
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideZackWard
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideNacla01
+    1) should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideRayBB
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideappleJax
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideNicksIdeaEngine
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideCirych
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+  rideBhavik
+    ✓ should return GO when passed COMETQ, HVNGAT
+    ✓ should return STAY when passed ABSTAR, USACO
+
+
+  35 passing (32ms)
+  1 failing
+
+  1) rideNacla01 should return GO when passed COMETQ, HVNGAT:
+
+      AssertionError: expected 'STAY' to equal 'GO'
+      + expected - actual
+
+      -STAY
+      +GO
+      
+      at Context.<anonymous> (test.js:102:54)
+
+
+

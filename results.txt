@@ -1,0 +1,86 @@
+All Participants
+=============================================
+
+Zsoltime
+BenGitter
+NewBorn
+JacksonBates
+Jenovs
+Omegga
+Velenir
+kevcomedia
+joelpeyton
+alichristensen
+ZackWard
+Nacla01
+RayBB
+appleJax
+NicksIdeaEngine
+Cirych
+Bhavik
+
+
+Top Five by solution character count
+=============================================
+
+Velenir - 76 characters
+Omegga - 80 characters
+kevcomedia - 83 characters
+ZackWard - 93 characters
+RayBB - 93 characters
+
+
+All Data 
+=============================================
+
+[ { camper: 'Velenir',
+    code: 'f=s=>[...s].reduce((p,e)=>p*(e.charCodeAt()-64),1)%47,f(g)==f(c)?"GO":"STAY"',
+    length: 76 },
+  { camper: 'Omegga',
+    code: 'f=x=>x.split(\'\').reduce((a,b)=>a*(b.charCodeAt()-64),1)%47)(c)==f(u)?\'GO\':\'STAY\'',
+    length: 80 },
+  { camper: 'kevcomedia',
+    code: 'return x=a=>[...a].reduce((a,b)=>a*(b.charCodeAt()-64),1)%47,x(g)==x(c)?\'GO\':\'STAY\'',
+    length: 83 },
+  { camper: 'ZackWard',
+    code: 'var f=s=>s.split(\'\').reduce((a,b)=>a*(b.charCodeAt(0)-64),1)%47;return f(g)==f(c)?\'GO\':\'STAY\'',
+    length: 93 },
+  { camper: 'RayBB',
+    code: 'function m(s){return s?(s.charCodeAt(0)-64)*m(s.slice(1)):1}return (m(f)-m(g))%47?"STAY":"GO"',
+    length: 93 },
+  { camper: 'Cirych',
+    code: 'g.map(s=>[...s].reduce((a,b)=>a*(b.charCodeAt(0)-64),1)%47).every((r,_,a)=>a[0]==r)?\'GO\':\'STAY\'',
+    length: 95 },
+  { camper: 'Bhavik',
+    code: '\nt=x=>x.split(\'\').reduce((a,b)=>a*(b.charCodeAt()-64),1)%47;\nreturn t(g) == t(c) ? \'GO\' : \'STAY\';\n',
+    length: 98 },
+  { camper: 'Zsoltime',
+    code: 'let f=(i)=>i.split(\'\').map(a=>a.charCodeAt(0)-64).reduce((a,b)=>a*b)%47;return f(g)===f(c)?\'GO\':\'STAY\'',
+    length: 102 },
+  { camper: 'Jenovs',
+    code: 'function a(b){return b.split(\'\').reduce((a,b)=>a*(b.charCodeAt()-64),1)%47}return a(c)==a(g)?\'GO\':\'STAY\'',
+    length: 104 },
+  { camper: 'NewBorn',
+    code: 'var e=r=>{let n=1;for(i=0;i<r.length;i++)n*=r.charCodeAt(i)-64;return n};return e(r)%47==e(n)%47?"GO":"STAY"',
+    length: 108 },
+  { camper: 'appleJax',
+    code: 'function s(x){return x.split(\'\').map(y=>y.charCodeAt()-64).reduce((a,b)=>a*b)%47}return s(c)==s(g)?\'GO\':\'STAY\'',
+    length: 110 },
+  { camper: 'BenGitter',
+    code: 'x=1,y=1;for(i=0;i<6;i++){x*=(c.charCodeAt(i)-64)||1;y*=(g.charCodeAt(i)-64)||1;}return(x%47)==(y%47)?"GO":"STAY";',
+    length: 113 },
+  { camper: 'NicksIdeaEngine',
+    code: 'var a=1,b=1;for(i=0;i<6;i++){a*=c.charCodeAt(i)-64;b*=g.charCodeAt(i)-64}a%=47;b%=47;if(a==b)return "GO";return "STAY"',
+    length: 118 },
+  { camper: 'JacksonBates',
+    code: 'let x=y=>{y=y.split(\'\');y.forEach((e,i,a)=>a[i]=e.charCodeAt()-64);return y.reduce((p,z)=>{return p*z})%47};return x(c)==x(g)?\'GO\':\'STAY\'',
+    length: 137 },
+  { camper: 'joelpeyton',
+    code: 'var g=g.split(\'\');c=c.split(\'\');function e(a){r=a.map(function(v){return v.charCodeAt()-64});r=r.reduce(function(p,c){return p*c});return r%47;}return e(g)==e(c)?"GO":"STAY"',
+    length: 173 },
+  { camper: 'Nacla01',
+    code: 'aP=bP=1;arr1=arr2=[];i=j=0;while(i<a.length){aP*=arr1.push(a.charCodeAt(i)-64);i++}while(j<b.length){bP*=arr2.push(b.charCodeAt(j)-64);j++}if(aP%47===bP%47){return"GO"}else{return"STAY"}',
+    length: 186 },
+  { camper: 'alichristensen',
+    code: 'var l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r", "s","t","u","v","w","x","y","z"],num1=[],num2=[],tot1=1,tot2=1,res1,res2;for(var i=0;i<m.length;i++) {for(var a=0;a<l.length;a++) {if(m[i].toLowerCase()==l[a]) {num1.push(a+1);}}}for(var i=0;i<n.length;i++){for(var a=0;a<l.length;a++){if(n[i].toLowerCase()==l[a]){num2.push(a+1);}}}for(var i=0;i<num1.length;i++){tot1*=num1[i];}for (var i=0; i<num2.length; i++){tot2*=num2[i];}res1=tot1%47;res2=tot2%47;if(res1===res2){return "GO";}else{return "STAY";}',
+    length: 532 } ]

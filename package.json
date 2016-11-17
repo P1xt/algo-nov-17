@@ -1,0 +1,15 @@
+{
+  "name": "algo-oct-17",
+  "version": "1.0.0",
+  "description": "FCC Algorithm Challenge October 16 results",
+  "main": "lengths.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "P1xt",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
